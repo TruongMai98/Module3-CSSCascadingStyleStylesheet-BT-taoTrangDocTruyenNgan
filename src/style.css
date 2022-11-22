@@ -21,6 +21,10 @@
     margin:0;
     background-color: #242526;
     /*border: 1px solid #CDCDCD;*/
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
 }
 
 .navigation ul, .navigation li {
@@ -50,6 +54,7 @@
     width: 200px;
     text-align: left;
     padding-left: 10px;
+
 }
 
 .navigation a:hover {
@@ -74,7 +79,6 @@
     /*margin: 1rem;*/
     /*padding: 2rem 2rem;*/
     /*text-align: center;*/
-
 }
 
 .sidebar {
@@ -83,6 +87,8 @@
     width: 29%;
     float: left;
     /*border: 1px solid red;*/
+    position: sticky;
+    top: 200px;
 
 }
 
